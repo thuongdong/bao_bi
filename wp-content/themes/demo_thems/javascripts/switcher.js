@@ -10,7 +10,7 @@
     	$(".colorbox").click(function(){
     		var id = $(this).attr("id");
     		
-    		$("#switch_style").attr("href", "assets/stylesheets/css/colors/" + id + ".css");    		
+    		$("#switch_style").attr("href", "<?php echo get_template_directory_uri(); ?>/stylesheets/css/colors/" + id + ".css");    		
     	});
     },
   };

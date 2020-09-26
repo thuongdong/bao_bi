@@ -1,36 +1,5 @@
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody">
-<div class="preloader">
-  <div class="image-container">
-    <div class="image"><img src="wp-content/uploads/2020/10/preloader.gif" alt=""></div>
-  </div>      
-</div>
-
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"></a>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#education">Experience</a></li>
-        <li><a href="#news">Journal</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-</div>
-
 <!-- Banner Section Begin -->
-<section class="banner" id="home" style="background: url(wp-content/uploads/2020/10/banner1.jpg) center; background-size: cover;">
+<section class="banner" id="home" style="background: url(wp-content/uploads/2020/10/IMG_4850.JPG) center; background-size: cover;">
   <div class="overlay"></div>
   <div class="banner-content">
     <div class="container">
@@ -844,5 +813,7 @@
         </form>
       </div><!--/.footer-form -->
     </div>
+    
   </div>
 </section>
+<!-- Contact Section End  -->
