@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Diego - Responsive One Page Template">
     <link rel="icon" href="wp-content/uploads/2020/10/favicon.png">
-    <title>MePro - Creative Personal Portfolio Template</title>
+    <title>Công ty cổ phần in quốc tế Thiên Phú</title>
 
     <!-- Stylesheets -->
 
@@ -63,7 +63,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"></a>
+          <a class="navbar-brand" href="#">
+            <img src="wp-content/uploads/2020/10/logo-dark.png"/>
+          </a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">

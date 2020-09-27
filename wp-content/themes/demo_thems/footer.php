@@ -35,7 +35,7 @@
         </div>
 
         <div class="col-md-12 col-sm-12 copyright">
-          <h6>&copy; MePro 2015 All right reserved. Designed by Suave Digital</h6>
+          <h6>Copyright &copy;2020 THIEN PHU Company. All Rights Reserved</h6>
         </div>
       </div><!--/.container -->
     </section>
@@ -56,28 +56,6 @@
     <script src="<?php echo get_template_directory_uri(); ?>/javascripts/masonry.pkgd.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/javascripts/custom-map.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/javascripts/custom.js"></script>
-
-    <!-- Style Switcher - Demo Only Begin -->
-    <div class="switcher-box">
-      <div class="hiddenbox"><i class="fa fa-gear"></i></div>
-      <div class="colorbox-container" style="display: none">
-        <div class="head"><i class="pe-7s-paint"></i></div>
-        <div class="content">
-          <a title="blue" href="javascript:void(0)">
-            <div class="colorbox" id="blue"></div>
-          </a>
-          <a title="green" href="javascript:void(0)">
-            <div class="colorbox" id="green"></div>
-          </a>
-          <a title="orange" href="javascript:void(0)">
-            <div class="colorbox" id="orange"></div>
-          </a>
-          <a title="yellow" href="javascript:void(0)">
-            <div class="colorbox" id="yellow"></div>
-          </a>
-        </div>
-      </div>
-    </div>
 
     <script src="<?php echo get_template_directory_uri(); ?>/javascripts/switcher.js"></script>
     <!-- Style Switcher - Demo Only End -->

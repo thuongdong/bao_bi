@@ -9,7 +9,7 @@ $(document).ready(function() {
   }, 1000);
 
   $("#typed").typed({
-    strings: ["I Am Passionate Designer", "Expert UI / UX Designer", "Excellent Front End Developer"],
+    strings: ["CÔNG TY CỔ PHẦN IN QUỐC TẾ THIÊN PHÚ"],
     typeSpeed: 30,
     startDelay: 0,
     backSpeed: 30,

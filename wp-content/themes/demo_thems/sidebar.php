@@ -5,17 +5,12 @@
     <div class="container">
       <div class="col-md-12">
         <div class="subtitle">
-          <p>I Am John Doe</p>
+          <img src="wp-content/uploads/2020/10/logo.png" />
         </div>
         <div class="title">
           <h1 id="typed"></h1>
         </div>
-        <div class="buttons">
-          <a href="#" class="def-btn">More About Me</a>
-        </div>
-        <div class="buttons">
-          <a href="#" class="def-btn">Download Resume</a>
-        </div>
+        <p>THIEN PHU INTERNATIONAL PRINTING JOINT STOCKCOMPANY</p>
       </div>
     </div><!-- /.container -->
 
@@ -36,8 +31,7 @@
     <div class="title-icon-container">
       <div class="title-icon"><i class="pe-7s-id pe-2x"></i></div>
     </div>
-    <h1>Johny Doe</h1>
-    <h2>Web Designer</h2>
+    <h1>BAN QUẢN TRỊ</h1>
   </div>
 
   <div class="container">
@@ -46,15 +40,33 @@
         <div class="center">
           <div class="img-relative photo">
             <img alt="My Photo" src="wp-content/uploads/2020/10/me.jpg">
+            <strong>USER NAME</strong>
+            <p>Giám đốc</p>
           </div>
           <div class="img-relative photo">
             <img alt="My Photo" src="wp-content/uploads/2020/10/me2.jpg">
+            <strong>USER NAME</strong>
+            <p>Quản lý</p>
           </div>
           <div class="img-relative photo">
             <img alt="My Photo" src="wp-content/uploads/2020/10/me3.jpg">
+            <strong>USER NAME</strong>
+            <p>Quản lý</p>
           </div>
           <div class="img-relative photo">
             <img alt="My Photo" src="wp-content/uploads/2020/10/me4.jpg">
+            <strong>USER NAME</strong>
+            <p>Quản lý</p>
+          </div>
+          <div class="img-relative photo">
+            <img alt="My Photo" src="wp-content/uploads/2020/10/me4.jpg">
+            <strong>USER NAME</strong>
+            <p>Quản lý</p>
+          </div>
+          <div class="img-relative photo">
+            <img alt="My Photo" src="wp-content/uploads/2020/10/me4.jpg">
+            <strong>USER NAME</strong>
+            <p>Quản lý</p>
           </div>
         </div>
 

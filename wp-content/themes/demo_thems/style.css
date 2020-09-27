@@ -13,6 +13,7 @@ body {
   font-family: "Lato", sans-serif;
   height: 100% !important;
   font-weight: 300;
+  font-size: 16px;
   color: #333333;
   position: relative;
 }
@@ -295,14 +296,12 @@ a:hover {
   line-height: 0px;
   width: 100px;
   height: 40px;
-  background: url("~/wp-content/uploads/2020/10/logo.png") no-repeat center;
   margin: 20px 0px;
 }
 .navbar-inverse .navbar-nav li a {
   color: #ffffff;
-  font-size: 12px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
   padding: 30px 20px;
   font-family: "Lato", helvetica, sans-serif;
   letter-spacing: 1px;
@@ -330,9 +329,6 @@ a:hover {
   -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
   color: #333333;
-}
-.navbar-inverse.scroll-fixed-navbar .navbar-brand {
-  background: url("~/wp-content/uploads/2020/10/logo-dark.png") no-repeat center;
 }
 .navbar-inverse.scroll-fixed-navbar .navbar-nav li a {
   color: #333333;
@@ -362,20 +358,18 @@ a:hover {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  color: #ffffff;
+  color: yellow;
 }
 .banner .banner-content .title {
-  width: 80%;
   text-align: center;
   margin: 0 auto;
 }
 .banner .banner-content .title h1 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 40px;
-  color: #ffffff;
+  color: yellow;
   margin-top: 0px;
   text-transform: uppercase;
-  font-weight: 300;
   letter-spacing: 10px;
   display: inline-block;
 }
@@ -386,7 +380,6 @@ a:hover {
   margin-top: 20px;
   line-height: 35px;
   text-transform: uppercase;
-  font-weight: 300;
   letter-spacing: 2px;
   display: inline-block;
   position: relative;
@@ -418,10 +411,10 @@ a:hover {
   border-bottom: 1px solid #ffffff;
 }
 .banner .scroll-info {
-  position: absolute;
-  bottom: 15%;
   text-align: center;
   width: 100%;
+  padding-top: 20px;
+  margin-bottom: 200px;
 }
 .banner .scroll-info .shape {
   display: inline-block;
@@ -2537,7 +2530,7 @@ a:hover {
   }
   .navbar-inverse .navbar-brand {
     padding: 0px;
-    background: url("~/wp-content/uploads/2020/10/logo-dark.png") no-repeat center;
+    background-image: url("~wp-content/uploads/2020/10/logo-dark.png") no-repeat center;
   }
   .navbar-inverse .navbar-collapse {
     border-color: #dddddd;
