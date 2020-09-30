@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Deprecated. Use WP_HTTP (http.php) instead.
+ * Deprecated. Use WP_HTTP (http.php, class-http.php) instead.
  */
-_deprecated_file( basename( __FILE__ ), '3.0.0', WPINC . '/http.php' );
+_deprecated_file( basename( __FILE__ ), '3.0', WPINC . '/http.php' );
 
-if ( ! class_exists( 'Snoopy', false ) ) :
+if ( !class_exists( 'Snoopy' ) ) :
 /*************************************************
 
 Snoopy - the PHP net client
@@ -183,7 +183,7 @@ class Snoopy
 						$frameurls = $this->_frameurls;
 						$this->_frameurls = array();
 
-						foreach ( $frameurls as $frameurl )
+						while(list(,$frameurl) = each($frameurls))
 						{
 							if($this->_framedepth < $this->maxframes)
 							{
@@ -243,7 +243,7 @@ class Snoopy
 					$frameurls = $this->_frameurls;
 					$this->_frameurls = array();
 
-					foreach ( $frameurls as $frameurl )
+					while(list(,$frameurl) = each($frameurls))
 					{
 						if($this->_framedepth < $this->maxframes)
 						{
@@ -341,7 +341,7 @@ class Snoopy
 						$frameurls = $this->_frameurls;
 						$this->_frameurls = array();
 
-						foreach ( $frameurls as $frameurl )
+						while(list(,$frameurl) = each($frameurls))
 						{
 							if($this->_framedepth < $this->maxframes)
 							{
@@ -408,7 +408,7 @@ class Snoopy
 					$frameurls = $this->_frameurls;
 					$this->_frameurls = array();
 
-					foreach ( $frameurls as $frameurl )
+					while(list(,$frameurl) = each($frameurls))
 					{
 						if($this->_framedepth < $this->maxframes)
 						{
@@ -629,13 +629,13 @@ class Snoopy
 
 		// catenate the non-empty matches from the conditional subpattern
 
-		foreach ( $links[2] as $key => $val )
+		while(list($key,$val) = each($links[2]))
 		{
 			if(!empty($val))
 				$match[] = $val;
 		}
 
-		foreach ( $links[3] as $key => $val )
+		while(list($key,$val) = each($links[3]))
 		{
 			if(!empty($val))
 				$match[] = $val;
@@ -821,7 +821,7 @@ class Snoopy
 		{
 			if(!is_array($this->rawheaders))
 				$this->rawheaders = (array)$this->rawheaders;
-			foreach ( $this->rawheaders as $headerKey => $headerVal )
+			while(list($headerKey,$headerVal) = each($this->rawheaders))
 				$headers .= $headerKey.": ".$headerVal."\r\n";
 		}
 		if(!empty($content_type)) {
@@ -985,7 +985,7 @@ class Snoopy
 		{
 			if(!is_array($this->rawheaders))
 				$this->rawheaders = (array)$this->rawheaders;
-			foreach ( $this->rawheaders as $headerKey => $headerVal )
+			while(list($headerKey,$headerVal) = each($this->rawheaders))
 				$headers[] = $headerKey.": ".$headerVal;
 		}
 		if(!empty($content_type)) {
@@ -999,23 +999,20 @@ class Snoopy
 		if(!empty($this->user) || !empty($this->pass))
 			$headers[] = "Authorization: BASIC ".base64_encode($this->user.":".$this->pass);
 
-		$headerfile = tempnam( $this->temp_dir, "sno" );
-		$cmdline_params = '-k -D ' . escapeshellarg( $headerfile );
-
-		foreach ( $headers as $header ) {
-			$cmdline_params .= ' -H ' . escapeshellarg( $header );
+		for($curr_header = 0; $curr_header < count($headers); $curr_header++) {
+			$safer_header = strtr( $headers[$curr_header], "\"", " " );
+			$cmdline_params .= " -H \"".$safer_header."\"";
 		}
 
-		if ( ! empty( $body ) ) {
-			$cmdline_params .= ' -d ' . escapeshellarg( $body );
-		}
+		if(!empty($body))
+			$cmdline_params .= " -d \"$body\"";
 
-		if ( $this->read_timeout > 0 ) {
-			$cmdline_params .= ' -m ' . escapeshellarg( $this->read_timeout );
-		}
+		if($this->read_timeout > 0)
+			$cmdline_params .= " -m ".$this->read_timeout;
 
+		$headerfile = tempnam($this->temp_dir, "sno");
 
-		exec( $this->curl_path . ' ' . $cmdline_params . ' ' . escapeshellarg( $URI ), $results, $return );
+		exec($this->curl_path." -k -D \"$headerfile\"".$cmdline_params." \"".escapeshellcmd($URI)."\"",$results,$return);
 
 		if($return)
 		{
@@ -1204,9 +1201,9 @@ class Snoopy
 		switch ($this->_submit_type) {
 			case "application/x-www-form-urlencoded":
 				reset($formvars);
-				foreach ( $formvars as $key => $val ) {
+				while(list($key,$val) = each($formvars)) {
 					if (is_array($val) || is_object($val)) {
-						foreach ( $val as $cur_key => $cur_val ) {
+						while (list($cur_key, $cur_val) = each($val)) {
 							$postdata .= urlencode($key)."[]=".urlencode($cur_val)."&";
 						}
 					} else
@@ -1218,9 +1215,9 @@ class Snoopy
 				$this->_mime_boundary = "Snoopy".md5(uniqid(microtime()));
 
 				reset($formvars);
-				foreach ( $formvars as $key => $val ) {
+				while(list($key,$val) = each($formvars)) {
 					if (is_array($val) || is_object($val)) {
-						foreach ( $val as $cur_key => $cur_val ) {
+						while (list($cur_key, $cur_val) = each($val)) {
 							$postdata .= "--".$this->_mime_boundary."\r\n";
 							$postdata .= "Content-Disposition: form-data; name=\"$key\[\]\"\r\n\r\n";
 							$postdata .= "$cur_val\r\n";
@@ -1233,9 +1230,9 @@ class Snoopy
 				}
 
 				reset($formfiles);
-				foreach ( $formfiles as $field_name => $file_names ) {
+				while (list($field_name, $file_names) = each($formfiles)) {
 					settype($file_names, "array");
-					foreach ( $file_names as $file_name ) {
+					while (list(, $file_name) = each($file_names)) {
 						if (!is_readable($file_name)) continue;
 
 						$fp = fopen($file_name, "r");

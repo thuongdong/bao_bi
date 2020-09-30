@@ -1,0 +1,4 @@
+[29-Oct-2015 11:31:44] PHP Fatal error:  Call to undefined function  get_field() in /home/ina9a6de/public_html/wp-content/themes/inan/tpl-home.php on line 3
+[29-Oct-2015 11:31:45] PHP Fatal error:  Call to undefined function  get_field() in /home/ina9a6de/public_html/wp-content/themes/inan/tpl-home.php on line 3
+[29-Oct-2015 11:32:02] PHP Fatal error:  Call to undefined function  get_field() in /home/ina9a6de/public_html/wp-content/themes/inan/tpl-home.php on line 3
+[14-Jan-2016 02:44:24] PHP Fatal error:  Call to undefined function  get_home_path() in /home/ina9a6de/public_html/wp-content/plugins/better-wp-security/core/lib/class-itsec-lib-config-file.php on line 687

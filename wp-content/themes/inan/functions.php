@@ -54,13 +54,6 @@ function cut($str, $len) {
 	return $str;
 }
 
-// class My_Walker_Nav_Menu extends Walker_Nav_Menu {
-// 	function start_lvl(&$output, $depth) {
-// 		$indent = str_repeat("\t", $depth);
-// 		$output .= "\n$indent<ul class=\"dropdown-menu\">\n";
-// 	}
-// }
-
 add_action( 'init', 'my_add_excerpts_to_pages' );
 function my_add_excerpts_to_pages() {
 	add_post_type_support( 'page', 'excerpt' );

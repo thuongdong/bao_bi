@@ -1,15 +1,32 @@
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+# Quick ban IP. Will be updated on next formal rules save.
+SetEnvIF REMOTE_ADDR "^31\.184\.238\.200$" DenyAccess
+SetEnvIF X-FORWARDED-FOR "^31\.184\.238\.200$" DenyAccess
+SetEnvIF X-CLUSTER-CLIENT-IP "^31\.184\.238\.200$" DenyAccess
+<IfModule mod_authz_core.c>
+	<RequireAll>
+		Require all granted
+		Require not env DenyAccess
+		Require not ip 31.184.238.200
+	</RequireAll>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from env=DenyAccess
+	Deny from 31.184.238.200
+	Allow from all
+</IfModule>
+# END iThemes Security - Do not modify or remove this line
 
 # BEGIN WordPress
-# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /bao_bi/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /bao_bi/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
