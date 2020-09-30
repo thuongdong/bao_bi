@@ -1,0 +1,65 @@
+.rs-gallery .rs-gallery-items{
+	margin-top:10px;
+	padding:10px 0 0 10px;
+	border:1px solid #ddd;
+}
+.rs-gallery .rs-gallery-item{
+	position:relative;
+	margin-right:10px;
+	margin-bottom:10px;
+	border:1px solid #ddd;
+	padding:1px;
+	line-height:0;
+	background:#fff;
+	float:left;
+}
+.rs-gallery.sorting-true .rs-gallery-item{
+	cursor:move;
+}
+.rs-gallery .rs-gallery-item img{
+	width:137px;
+	height:137px;	
+}
+.rs-gallery .rs-gallery-item a{
+    background: url("sprite.png") no-repeat scroll 0 0 #FFFFFF;
+    border-radius: 11px;
+    box-shadow: 0 0 2px #CCCCCC;
+    cursor: pointer;
+    height: 22px;
+    line-height: 22px;
+    text-indent: -9999px;
+    width: 22px;
+	display:block;
+}	
+.rs-gallery .rs-gallery-item .rs-gallery-delete{
+	background-position:-47px 1px;
+}
+.rs-gallery .rs-gallery-item .rs-gallery-delete:hover{
+	background-position:-47px -49px;
+}
+.rs-gallery .rs-gallery-item .rs-gallery-edit{
+	margin-top:10px;
+	background-position:3px 1px;
+}
+.rs-gallery .rs-gallery-item .rs-gallery-edit:hover{
+	background-position:3px -49px;
+}
+.rs-gallery .rs-gallery-item .rs-gallery-action{
+	display:none;
+	position:absolute;
+	right:-10px;
+	top:-10px;
+	width:22px;
+	height:100%;
+}
+.rs-gallery .rs-gallery-item:hover .rs-gallery-action{
+	display:block;
+}
+.rs-gallery .rs-gallery-template{
+	display:none;
+}
+.rs-gallery .ui-sortable-placeholder{
+	visibility:visible!important;
+	border:1px dotted #ddd;
+	background:#f9f9f9;
+}

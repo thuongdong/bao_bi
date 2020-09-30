@@ -1,0 +1,11 @@
+0000.048 () Opened log file at time: Sun, 25 Oct 2015 03:43:31 +0000 on http://localhost:88/printing
+0000.050 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.1 PHP: 5.5.27 (Windows NT VAIO-VAIO 6.1 build 7601 (Windows 7 Home Premium Edition Service Pack 1) i586) MySQL: 5.6.25 Server: Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.5.27 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 17.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.050 () Free space on disk containing Updraft's temporary directory: 206679.4 Mb
+0000.050 () Restore job started. Entities to restore: db
+0000.113 () Entity: db
+0000.113 () restore_backup(backup_file=backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-db.zip, type=db, info=a:0:{}, last_one=1)
+0000.115 () Unpacking backup... (backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-db.zip, 0.2 Mb)
+0000.141 () Error message: Failed to find database file (C:/xampp/htdocs/printing/wp-content/upgrade/acdcd424/backup.db.gz)
+0000.143 () Restore failed...
+0000.143 () Error message: Failed to find database file (C:/xampp/htdocs/printing/wp-content/upgrade/acdcd424/backup.db.gz)
+0000.143 () Restore failed

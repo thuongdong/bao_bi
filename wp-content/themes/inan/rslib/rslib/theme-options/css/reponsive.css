@@ -1,0 +1,39 @@
+@media (max-width: 1280px) {
+	#rs-panel{
+		width:99%;
+	}
+}
+@media (max-width: 712px) {
+	.ui-widget-header{
+		padding:0px 5px;
+	}
+}
+@media (max-width: 680px) {
+	.rs-field-label{
+		width:100%;
+	}
+	.rs-field-editor{
+		width:100%;
+		padding:0px;
+	}
+	select.rs-selectbox-multiple{
+		height:auto!important;
+	}
+}
+
+@media (max-width: 578px) {
+	.rs-sidebar {
+		width: 100%;
+	}
+
+	.rs-sidebar{
+		position:inherit;
+	}
+	.rs-content-main{
+		margin-left:7px;
+	}
+	.rs-breadcrumb{
+		display:none;
+	}
+	
+}

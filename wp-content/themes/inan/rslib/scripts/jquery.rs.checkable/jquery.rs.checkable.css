@@ -1,0 +1,28 @@
+.rs-checkbox-input,
+.rs-radio-input{
+	outline:none!important;
+	transition:none!important;
+	margin-right:4px;
+	vertical-align:-2px;
+}
+.rs-checkbox-trigger{
+	background: url(checkbox.png) no-repeat scroll center top;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    padding: 0 8px;
+}
+.rs-checkbox-trigger.checked{
+	background-position:center bottom;
+}
+
+.rs-radio-trigger{
+	background:url(radio.png) no-repeat center top;
+    display: inline-block;
+    height: 16px;
+    padding: 0 8px;
+	cursor:pointer;
+}
+.rs-radio-trigger.checked{
+	background-position:center bottom;
+}

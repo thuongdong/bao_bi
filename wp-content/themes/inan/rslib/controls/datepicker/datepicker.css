@@ -1,0 +1,17 @@
+.ui-datepicker {
+	margin-top:2px;
+}
+.rs-datepicker{
+	width:212px;
+	max-width:100%;
+	position:relative;
+}
+.ui-datepicker-trigger {
+    border: medium none;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+	border-left:1px solid #ddd;
+	padding:4px 5px 5px 4px;
+	background:#fff;
+}

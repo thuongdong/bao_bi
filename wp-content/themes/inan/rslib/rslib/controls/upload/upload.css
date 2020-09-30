@@ -1,0 +1,133 @@
+.rs-upload{
+	position:relative;
+}
+.rs-upload a{
+	outline:none!important;
+	transition:none!important;
+}
+.rs-upload .rs-upload-browser{
+	min-height:28px;
+}
+.rs-upload .rs-button{
+	border:none;
+	border-radius:0;
+    border-left: 1px solid #ddd;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    text-decoration: none;
+    top: 1px;
+    padding:0 10px;
+	color:#535353;
+	font-weight:bold;
+	height:26px;
+	line-height:26px;
+	cursor:pointer;
+	overflow:hidden;
+	font-size:12px;
+}
+.rs-upload.hide-input .rs-button{
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+.rs-upload .rs-button:active{
+	box-shadow:none;
+	background-color: #E6E6E6;
+    background-position: 0 -15px;
+}
+.rs-upload .rs-upload-details{
+	margin-top:15px;
+	display:none;
+}
+.rs-upload  .rs-upload-preview{
+	float:left;
+	position:relative;
+	margin-right:15px;
+}
+.rs-upload  .rs-upload-preview a{
+	display:block;	
+	text-align:center;
+	box-shadow:0 0 3px rgba(0, 0, 0, 0.3);
+	height:21px;
+	width:21px;
+	border-radius:11px;
+	line-height:21px;
+	text-indent:-9999px;
+	background:url(sprite.png) no-repeat #fff;
+	cursor:pointer;
+}
+.rs-upload  .rs-upload-preview .rs-upload-action{
+	position:absolute;
+	right:-10px;
+	top:-10px;
+	width:21px;
+	height:100%;
+	display:none;
+}
+.rs-upload  .rs-upload-preview .rs-upload-delete{
+	background-position:-47px 1px;
+}
+.rs-upload  .rs-upload-preview .rs-upload-delete:hover{
+	background-position:-47px -49px;
+}
+.rs-upload  .rs-upload-preview .rs-upload-edit{
+	margin-top: 10px;
+	background-position:3px 1px;
+}
+.rs-upload  .rs-upload-preview .rs-upload-edit:hover{
+	background-position:3px -49px;
+}
+.rs-upload  .rs-upload-details:hover .rs-upload-action{
+	display:block;
+}
+.rs-upload  .image-details img{
+	width:100%;
+}
+.rs-upload  .image-details .rs-upload-preview{
+	margin:0;
+}
+.rs-upload  .file-details img{
+	width: 50px;
+}
+.rs-upload  .rs-upload-details p {
+	display:none;
+	margin-left:10px;
+}
+.rs-upload  .rs-upload-details  .rs-upload-name{
+	font-weight:bold;
+}
+
+/* edit media */
+.rs-media-edit-wrap .media-frame-router,
+.rs-media-edit-wrap .attachments-browser .media-toolbar,
+.rs-media-edit-wrap .details{
+	display:none;
+}
+.rs-media-edit-wrap  .attachments {
+	left:auto;
+	right:100%;
+}
+.rs-media-edit-wrap  .media-sidebar{
+	width:100%;
+	padding:0;
+}
+.rs-media-edit-wrap  .attachment-details{
+	padding:20px;
+}
+.rs-media-edit-wrap  .attachment-info{
+	float:left;
+	min-height:200px;
+	border:none;
+	box-shadow:none;
+}
+.rs-media-edit-wrap  .media-sidebar .setting span{
+	min-width:100px;
+	margin-right:10px;
+}
+.rs-media-edit-wrap  .media-sidebar .setting input, 
+.rs-media-edit-wrap  .media-sidebar .setting textarea{
+	float:none;
+}
+.rs-media-edit-wrap  .media-sidebar .setting{
+	width:60%;
+}

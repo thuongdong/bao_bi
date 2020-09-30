@@ -1,0 +1,26 @@
+.rs-rater{	
+	background:url(star.png) repeat-x left top;
+	height:24px;
+}
+.rs-rater .rs-rater-star{
+	background:url(star.png) repeat-x left center;
+	height:24px;
+}
+.rs-rater .rs-rater-slide{
+	background:url(star.png) repeat-x left bottom;
+	height:24px;
+}
+
+
+.rs-rater-34x32 {	
+	background:url(star-34x32.png) repeat-x left top;
+	height:32px;
+}
+.rs-rater-34x32  .rs-rater-star{
+	background:url(star-34x32.png) repeat-x left center;
+	height:32px;
+}
+.rs-rater-34x32  .rs-rater-slide{
+	background:url(star-34x32.png) repeat-x left bottom;
+	height:32px;
+}

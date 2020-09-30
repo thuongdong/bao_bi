@@ -1,0 +1,34 @@
+0000.038 () Opened log file at time: Sun, 25 Oct 2015 03:38:49 +0000 on http://localhost:88/printing
+0000.040 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.1 PHP: 5.5.27 (Windows NT VAIO-VAIO 6.1 build 7601 (Windows 7 Home Premium Edition Service Pack 1) i586) MySQL: 5.6.25 Server: Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.5.27 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 17.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.040 () Free space on disk containing Updraft's temporary directory: 206757.3 Mb
+0000.043 () Restore job started. Entities to restore: plugins, themes, uploads
+0000.138 () Entity: plugins
+0000.138 () restore_backup(backup_file=backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:43:"C:\xampp\htdocs\printing/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.138 () Unpacking backup... (backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-plugins.zip, 11.6 Mb)
+0027.566 () Moving old data: filesystem method / updraft_dir is potentially possible
+0027.566 () Moving old data: can potentially use wp_filesystem method / -old
+0027.566 () Moving old data out of the way...
+0028.236 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0028.279 () Moving unpacked backup into place...
+0029.990 () Top-level entities being moved: acf-repeater, advanced-custom-fields, akismet, better-wp-security, ckeditor-for-wordpress, contact-form-7, duplicate-post, hello.php, index.php, revslider, umanit-update-urls, updraftplus
+0030.150 () Cleaning up rubbish...
+0030.152 () Entity: themes
+0030.152 () restore_backup(backup_file=backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-themes.zip, type=themes, info=a:2:{s:4:"path";s:42:"C:\xampp\htdocs\printing/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0030.152 () Unpacking backup... (backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-themes.zip, 7.6 Mb)
+0037.148 () Moving old data: filesystem method / updraft_dir is potentially possible
+0037.150 () Moving old data: can potentially use wp_filesystem method / -old
+0037.150 () Moving old data out of the way...
+0037.310 () Top-level entities being moved: index.php, twentyfifteen, twentyfourteen, twentythirteen
+0037.475 () Moving unpacked backup into place...
+0038.108 () Top-level entities being moved: inan, index.php, twentyfifteen, twentyfourteen, twentythirteen
+0038.215 () Cleaning up rubbish...
+0038.218 () Entity: uploads
+0038.218 () restore_backup(backup_file=backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:43:"C:\xampp\htdocs\printing/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=1)
+0038.218 () Unpacking backup... (backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-uploads.zip, 20.2 Mb)
+0040.118 () Moving old data: filesystem method / updraft_dir is potentially possible
+0040.118 () Moving old data: can potentially use wp_filesystem method / -old
+0040.118 () Moving old data out of the way...
+0040.135 () Moving unpacked backup into place...
+0040.253 () Cleaning up rubbish...
+0040.260 () Restore successful!
+0040.260 () Restore successful

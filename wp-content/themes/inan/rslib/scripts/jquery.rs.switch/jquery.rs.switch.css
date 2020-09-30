@@ -1,0 +1,37 @@
+.rs-switch{
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+}
+.rs-switch-trigger{
+	display:block;
+	width:52px;
+	height:24px;
+	cursor:pointer;
+	outline:none!important;
+	transition:none!important;
+}
+.rs-switch input{
+	display:none;
+}
+.rs-switch-trigger{
+	background-image:url(btn.png);
+}
+.rs-switch-default .rs-switch-trigger.on{
+	background-position:right top;
+}
+.rs-switch-default .rs-switch-trigger.off{
+	background-position:right bottom;
+}
+.rs-switch-on-off .rs-switch-trigger.on{
+	background-position:left top;	
+}
+.rs-switch-on-off .rs-switch-trigger.off{
+	background-position:left bottom;
+}
+.rs-switch-yes-no .rs-switch-trigger.on{
+	background-position:-52px top;
+}
+.rs-switch-yes-no .rs-switch-trigger.off{
+	background-position:-52px bottom;
+}

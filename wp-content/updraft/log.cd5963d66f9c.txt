@@ -1,0 +1,124 @@
+0000.001 (0) Opened log file at time: Thu, 29 Oct 2015 11:24:16 +0000 on http://inanhoanggia.vn
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.1 PHP: 5.2.17 (Linux s2d251.cloudnetwork.vn 2.6.32-604.16.2.lve1.3.54.el6.x86_64 #1 SMP Mon Jul 27 11:32:29 EDT 2015 x86_64) MySQL: 5.5.41 Server: Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips Phusion_Passenger/4.0.58 mod_bwlimited/1.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 50.8M | 51.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.180 (0) Free space on disk containing Updraft's temporary directory: 196282.8 Mb / Free disk space in account: 477 Mb (20.5 % used)
+0000.191 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.197 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.204 (0) Requesting semaphore lock (fd)
+0000.224 (0) Set semaphore last lock (fd) time to 2015-10-29 11:24:16
+0000.230 (0) Semaphore lock (fd) complete
+0000.251 (0) Backup run: resumption=0, nonce=cd5963d66f9c, begun at=1446117856 (0s ago), job type=backup
+0000.261 (0) Scheduling a resumption (1) after 300 seconds (1446118156) in case this run gets aborted
+0000.285 (0) Checking if we have a zip executable available
+0000.297 (0) Creation of backups of directories: beginning
+0000.308 (0) No backup of plugins: excluded by user's options
+0000.313 (0) No backup of themes: excluded by user's options
+0000.318 (0) No backup of uploads: excluded by user's options
+0000.324 (0) No backup of others: excluded by user's options
+0000.356 (0) Saving backup status to database (elements: 0)
+0000.369 (0) Beginning creation of database dump (WordPress DB)
+0000.406 (0) Table wp_options: Total expected rows (approximate): 2321
+0000.465 (0) Table wp_options: Total rows added: 305 in 0.05 seconds
+0000.475 (0) Table wp_options: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_options.table.gz - 94.2 Kb)
+0000.499 (0) Table wp_users: Total expected rows (approximate): 1
+0000.510 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0000.530 (0) Table wp_users: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_users.table.gz - 0.5 Kb)
+0000.548 (0) Table wp_usermeta: Total expected rows (approximate): 43
+0000.560 (0) Table wp_usermeta: Total rows added: 43 in 0.01 seconds
+0000.565 (0) Table wp_usermeta: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_usermeta.table.gz - 1.9 Kb)
+0000.582 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.591 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.598 (0) Table wp_commentmeta: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_commentmeta.table.gz - 0.4 Kb)
+0000.618 (0) Table wp_comments: Total expected rows (approximate): 1
+0000.631 (0) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0000.638 (0) Table wp_comments: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_comments.table.gz - 0.6 Kb)
+0000.662 (0) Table wp_links: Total expected rows (approximate): 0
+0000.674 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0000.680 (0) Table wp_links: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_links.table.gz - 0.4 Kb)
+0000.705 (0) Table wp_postmeta: Total expected rows (approximate): 2513
+0000.783 (0) Table wp_postmeta: Total rows added: 2572 in 0.07 seconds
+0000.790 (0) Table wp_postmeta: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_postmeta.table.gz - 30.7 Kb)
+0000.807 (0) Table wp_posts: Total expected rows (approximate): 255
+0000.859 (0) Table wp_posts: Total rows added: 249 in 0.05 seconds
+0000.867 (0) Table wp_posts: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_posts.table.gz - 31 Kb)
+0000.887 (0) Table wp_term_relationships: Total expected rows (approximate): 67
+0000.901 (0) Table wp_term_relationships: Total rows added: 67 in 0.01 seconds
+0000.909 (0) Table wp_term_relationships: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_term_relationships.table.gz - 0.5 Kb)
+0000.932 (0) Table wp_term_taxonomy: Total expected rows (approximate): 14
+0000.944 (0) Table wp_term_taxonomy: Total rows added: 14 in 0.01 seconds
+0000.950 (0) Table wp_term_taxonomy: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_term_taxonomy.table.gz - 0.5 Kb)
+0000.969 (0) Table wp_terms: Total expected rows (approximate): 14
+0000.985 (0) Table wp_terms: Total rows added: 14 in 0.01 seconds
+0000.992 (0) Table wp_terms: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_terms.table.gz - 0.7 Kb)
+0001.012 (0) Table wp_itsec_lockouts: Total expected rows (approximate): 0
+0001.025 (0) Table wp_itsec_lockouts: Total rows added: 0 in 0.01 seconds
+0001.033 (0) Table wp_itsec_lockouts: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_itsec_lockouts.table.gz - 0.4 Kb)
+0001.053 (0) Table wp_itsec_log: Total expected rows (approximate): 0
+0001.064 (0) Table wp_itsec_log: Total rows added: 0 in 0.01 seconds
+0001.070 (0) Table wp_itsec_log: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_itsec_log.table.gz - 0.4 Kb)
+0001.092 (0) Table wp_itsec_temp: Total expected rows (approximate): 0
+0001.105 (0) Table wp_itsec_temp: Total rows added: 0 in 0.01 seconds
+0001.111 (0) Table wp_itsec_temp: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_itsec_temp.table.gz - 0.4 Kb)
+0001.129 (0) Table wp_revslider_css: Total expected rows (approximate): 47
+0001.142 (0) Table wp_revslider_css: Total rows added: 47 in 0.01 seconds
+0001.148 (0) Table wp_revslider_css: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_css.table.gz - 1.8 Kb)
+0001.166 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0001.176 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0001.182 (0) Table wp_revslider_layer_animations: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_layer_animations.table.gz - 0.3 Kb)
+0001.204 (0) Table wp_revslider_settings: Total expected rows (approximate): 1
+0001.218 (0) Table wp_revslider_settings: Total rows added: 1 in 0.01 seconds
+0001.233 (0) Table wp_revslider_settings: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_settings.table.gz - 0.3 Kb)
+0001.252 (0) Table wp_revslider_sliders: Total expected rows (approximate): 1
+0001.282 (0) Table wp_revslider_sliders: Total rows added: 1 in 0.01 seconds
+0001.292 (0) Table wp_revslider_sliders: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_sliders.table.gz - 1.4 Kb)
+0001.322 (0) Table wp_revslider_slides: Total expected rows (approximate): 3
+0001.339 (0) Table wp_revslider_slides: Total rows added: 3 in 0.01 seconds
+0001.424 (0) Table wp_revslider_slides: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_slides.table.gz - 0.8 Kb)
+0001.447 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0001.457 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.01 seconds
+0001.463 (0) Table wp_revslider_static_slides: finishing file (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_static_slides.table.gz - 0.3 Kb)
+0001.479 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_options.table.gz (1/20): adding to final database dump
+0001.513 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_users.table.gz (2/20): adding to final database dump
+0001.520 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_usermeta.table.gz (3/20): adding to final database dump
+0001.527 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_commentmeta.table.gz (4/20): adding to final database dump
+0001.549 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_comments.table.gz (5/20): adding to final database dump
+0001.556 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_links.table.gz (6/20): adding to final database dump
+0001.562 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_postmeta.table.gz (7/20): adding to final database dump
+0001.588 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_posts.table.gz (8/20): adding to final database dump
+0001.604 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_term_relationships.table.gz (9/20): adding to final database dump
+0001.620 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_term_taxonomy.table.gz (10/20): adding to final database dump
+0001.626 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_terms.table.gz (11/20): adding to final database dump
+0001.630 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_itsec_lockouts.table.gz (12/20): adding to final database dump
+0001.636 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_itsec_log.table.gz (13/20): adding to final database dump
+0001.644 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_itsec_temp.table.gz (14/20): adding to final database dump
+0001.649 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_css.table.gz (15/20): adding to final database dump
+0001.655 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_layer_animations.table.gz (16/20): adding to final database dump
+0001.660 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_settings.table.gz (17/20): adding to final database dump
+0001.665 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_sliders.table.gz (18/20): adding to final database dump
+0001.670 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_slides.table.gz (19/20): adding to final database dump
+0001.675 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db-table-wp_revslider_static_slides.table.gz (20/20): adding to final database dump
+0001.681 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db.gz: finished writing out complete database file (160 Kb)
+0001.700 (0) Total database tables backed up: 20 (backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db.gz, size: 167131, checksum (SHA1): 168893813d0181ae4d12d2a92db50e755c14afe6)
+0001.709 (0) Saving backup history
+0001.737 (0) backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.750 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.764 (0) Cloud backup selection (1/1):  (last)
+0001.769 (0) No remote despatch: user chose no remote backup service
+0001.779 (0) Recording as successfully uploaded: backup_2015-10-29-1124_In_n_Hong_Gia_cd5963d66f9c-db.gz (7ec3e550f82648102d90f1abbb734367)
+0001.810 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0001.817 (0) Number of backup sets in history: 2
+0001.822 (0) Examining backup set with datestamp: 1446117856 (Oct 29 2015 11:24:16)
+0001.828 (0) 1446117856: this backup set remains non-empty (0/1); will retain in history
+0001.832 (0) Examining backup set with datestamp: 1446025105 (Oct 28 2015 09:38:25)
+0001.846 (0) 1446025105: db: this set includes a database (backup_2015-10-28-0938_In_n_Hong_Gia_f1b3fdb10a29-db.gz); db count is now 2
+0001.851 (0) 1446025105: db: over retain limit (1); will delete this database
+0001.856 (0) Delete file: backup_2015-10-28-0938_In_n_Hong_Gia_f1b3fdb10a29-db.gz, service=none
+0001.861 (0) Deleting local copy (backup_2015-10-28-0938_In_n_Hong_Gia_f1b3fdb10a29-db.gz)
+0001.870 (0) 1446025105: this backup set is now empty; will remove from history
+0001.874 (0) 1446025105: deleting log file (log.f1b3fdb10a29.txt)
+0001.879 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0001.911 (0) Resume backup (cd5963d66f9c, 0): finish run
+0001.925 (0) Decremented the semaphore (fd) by 1
+0001.934 (0) Semaphore (fd) unlocked
+0001.941 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0001.962 (0) No email will/can be sent - the user has not configured an email address.
+0001.968 (0) The backup apparently succeeded and is now complete

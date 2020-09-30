@@ -1,0 +1,46 @@
+0000.063 () Opened log file at time: Sun, 25 Oct 2015 04:03:05 +0000 on http://localhost:88/printing
+0000.063 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.1 PHP: 5.5.27 (Windows NT VAIO-VAIO 6.1 build 7601 (Windows 7 Home Premium Edition Service Pack 1) i586) MySQL: 5.6.25 Server: Apache/2.4.16 (Win32) OpenSSL/1.0.1p PHP/5.5.27 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.6M | 18M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.065 () Free space on disk containing Updraft's temporary directory: 206708.2 Mb
+0000.065 () Restore job started. Entities to restore: db
+0000.125 () Entity: db
+0000.125 () restore_backup(backup_file=backup_2015-10-23-0540_In_n_Hong_Gia_59b43b5588d6-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.125 () Unpacking backup...
+0000.138 () Database successfully unpacked
+0000.140 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.140 () Using direct MySQL access; value of use_mysqli is: 1
+0000.143 () Max packet size: 32 Mb
+0000.143 () Entering maintenance mode
+0000.143 () Bật chế độ Bảo trì&#8230;
+0000.150 () <strong>Backup of:</strong> http://printing.vifonic.com
+0000.205 () Content URL: http://printing.vifonic.com/wp-content
+0000.205 () Old table prefix: wp_
+0000.205 () Site information: multisite=0
+0000.240 () New table prefix: wp_
+0000.343 () Restoring table (InnoDB): wp_options
+0000.785 () Restoring prior UD configuration (table: wp_options; keys: 84)
+0001.883 () Restoring table (InnoDB): wp_users
+0002.873 () Restoring table (InnoDB): wp_usermeta
+0003.270 () Restoring table (InnoDB): wp_commentmeta
+0003.925 () Restoring table (InnoDB): wp_comments
+0004.245 () Restoring table (InnoDB): wp_links
+0004.643 () Restoring table (InnoDB): wp_postmeta
+0006.803 () Restoring table (InnoDB): wp_posts
+0007.205 () Restoring table (InnoDB): wp_term_relationships
+0007.410 () Restoring table (InnoDB): wp_term_taxonomy
+0007.670 () Restoring table (InnoDB): wp_terms
+0007.790 () Restoring table (MyISAM): wp_itsec_lockouts
+0007.810 () Restoring table (MyISAM): wp_itsec_log
+0007.873 () Restoring table (MyISAM): wp_itsec_temp
+0007.933 () Restoring table (InnoDB): wp_revslider_css
+0008.113 () Restoring table (InnoDB): wp_revslider_layer_animations
+0008.323 () Database queries processed: 50 in 8.18 seconds
+0008.323 () Restoring table (InnoDB): wp_revslider_settings
+0008.383 () Restoring table (InnoDB): wp_revslider_sliders
+0008.518 () Restoring table (InnoDB): wp_revslider_slides
+0008.705 () Restoring table (InnoDB): wp_revslider_static_slides
+0008.803 () Leaving maintenance mode
+0008.803 () Vô hiệu hóa chế độ bảo trì&#8230;
+0008.803 () Finished: lines processed: 63 in 8.66 seconds
+0008.805 () Cleaning up rubbish...
+0008.925 () Restore successful!
+0008.925 () Restore successful

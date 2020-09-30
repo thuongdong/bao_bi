@@ -1,0 +1,12 @@
+.rs-colorpicker{
+	max-width:100%;
+	width:212px;
+	position:relative;
+}
+.rs-colorpicker .rs-colorpicker-trigger{
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+	cursor:pointer;
+}

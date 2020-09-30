@@ -1,0 +1,7 @@
+.rs-metabox .rs-table .label{
+    background: none repeat scroll 0 0 #F9F9F9;
+    width: 20%;
+}
+.rs-metabox .label label{
+	font-weight: bold;
+}

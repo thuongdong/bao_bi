@@ -1,0 +1,5 @@
+.pagenavi{clear:both;position: relative; float: right; margin-top: 35px;}
+.pagenavi span,.pagenavi a{color: #4d4d4d;padding:3px;margin-right:5px;background:transparent;border:1px solid #757575}
+.pagenavi a:hover,.pagenavi .current{background:transparent;color:#4d4d4d;text-decoration:none}
+.pagenavi .pages,.pagenavi .current{color: #4d4d4d;font-weight:bold}
+.pagenavi .pages{border:none}
