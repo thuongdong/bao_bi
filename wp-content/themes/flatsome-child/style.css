@@ -8,7 +8,9 @@ Version: 3.0
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
 
-
+body p{
+  margin: 0;
+}
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
